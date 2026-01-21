@@ -1,15 +1,15 @@
 Algoritmo CompraSupermercado
 	// =========================================================
-	// DECLARACI覰 DE VARIABLES (Supermercado A)
+	// DECLARACI脫N DE VARIABLES (Supermercado A)
 	// =========================================================
 	
-	// Datos del supermercado y mensaje gu韆 para ingresar precios por unidad
+	// Datos del supermercado y mensaje gu铆a para ingresar precios por unidad
 	Definir supermercado_A, producto_A Como Caracter
 	
 	// Precios por unidad de cada producto (Supermercado A)
 	Definir leche_A, pollo_A, manzana_A Como Real
 	
-	// Mensaje gu韆 para ingresar cantidades (unidades) por producto
+	// Mensaje gu铆a para ingresar cantidades (unidades) por producto
 	Definir unidades_A Como Caracter
 	
 	// Cantidad de unidades por producto (Supermercado A)
@@ -18,15 +18,15 @@ Algoritmo CompraSupermercado
 	// Totales por producto (precio unidad * cantidad) (Supermercado A)
 	Definir precioTotalLeche_A, precioTotalPollo_A,precioTotalManzana_A  Como Real
 	
-	// Mensajes para el pie de p醙ina (no imprimen a鷑, solo almacenan texto)
+	// Mensajes para el pie de p谩gina (no imprimen a煤n, solo almacenan texto)
 	Definir pieDePagina_A, agradecimiento_A Como Caracter
 	
-	// Variable reservada (no se usa en el c骴igo actual)
+	// Variable reservada (no se usa en el c贸digo actual)
 	Definir precioTotalProducto_A Como Real
 	
 	// Total final de la compra (Supermercado A)
 	Definir precioTotalCompra_A Como Real
-	// Variable para guardar cu醠 supermercado es m醩 econ髆ico
+	// Variable para guardar cu谩l supermercado es m谩s econ贸mico
 	Definir supermercadoEconomico Como Caracter
 	
 	// =========================================================
@@ -37,7 +37,7 @@ Algoritmo CompraSupermercado
 	supermercado_A = "Supermercado La Rebaja"
 	producto_A = "Ingrese el valor del producto"
 	
-	// Muestra el encabezado y la instrucci髇 para ingresar precios
+	// Muestra el encabezado y la instrucci贸n para ingresar precios
 	Escribir supermercado_A
 	Escribir producto_A
 	
@@ -47,20 +47,20 @@ Algoritmo CompraSupermercado
 	// Asigna el mensaje para solicitar la cantidad de unidades
 	unidades_A = "Ingrese la cantidad de unidades"
 	
-	// Muestra la instrucci髇 para ingresar unidades
+	// Muestra la instrucci贸n para ingresar unidades
 	Escribir unidades_A
 	
 	// Lee desde consola las cantidades (unidades) (leche, pollo, manzana)
 	Leer unidadesLeche_A, unidadesPollo_A, unidades_Manzana_A
 	
 	// =========================================================
-	// SUPERMERCADO A: C罫CULOS
+	// SUPERMERCADO A: C脕LCULOS
 	// =========================================================
 	
 	// Calcula el total por producto (precio por unidad * cantidad de unidades)
-	unidadesLeche_A = 0
-	unidadesPollo_A = 0
-	unidades_Manzana_A = 0
+	unidadesLeche_A = unidadesLeche_A
+	unidadesPollo_A = unidadesPollo_A
+	unidades_Manzana_A = unidades_Manzana_A
 	
 	// Realiza el calculo de precio x unidad multiplicado por el total de unidades
 	precioTotalLeche_A = leche_A * unidadesLeche_A
@@ -74,7 +74,7 @@ Algoritmo CompraSupermercado
 	// SUPERMERCADO A: MENSAJES Y SALIDA EN PANTALLA
 	// =========================================================
 	
-	// Define los mensajes del pie de p醙ina (solo asignaci髇 de texto)
+	// Define los mensajes del pie de p谩gina (solo asignaci贸n de texto)
 	pieDePagina_A = "El valor estimado de su compra seria: $"
 	agradecimiento_A = "Gracias por su visita"
 	
@@ -88,16 +88,16 @@ Algoritmo CompraSupermercado
 	Escribir agradecimiento_A
 	
 	// =========================================================
-	// DECLARACI覰 DE VARIABLES (Supermercado B)
+	// DECLARACI脫N DE VARIABLES (Supermercado B)
 	// =========================================================
 	
-	// Datos del supermercado y mensaje gu韆 para ingresar precios por unidad
+	// Datos del supermercado y mensaje gu铆a para ingresar precios por unidad
 	Definir supermercado_B, producto_B Como Caracter
 	
 	// Precios por unidad de cada producto (Supermercado B)
 	Definir leche_B, pollo_B, manzana_B Como Real
 	
-	// Mensaje gu韆 para ingresar cantidades (unidades) por producto
+	// Mensaje gu铆a para ingresar cantidades (unidades) por producto
 	Definir unidades_B Como Caracter
 	
 	// Cantidad de unidades por producto (Supermercado B)
@@ -106,10 +106,10 @@ Algoritmo CompraSupermercado
 	// Totales por producto (precio unidad * cantidad) (Supermercado B)
 	Definir precioTotalLeche_B, precioTotalPollo_B,precioTotalManzana_B  Como Real
 	
-	// Mensajes para el pie de p醙ina (no imprimen a鷑, solo almacenan texto)
+	// Mensajes para el pie de p谩gina (no imprimen a煤n, solo almacenan texto)
 	Definir pieDePagina_B, agradecimiento_B Como Caracter
 	
-	// Variable reservada (no se usa en el c骴igo actual)
+	// Variable reservada (no se usa en el c贸digo actual)
 	Definir precioTotalProducto_B Como Real
 	
 	// Total final de la compra (Supermercado B)
@@ -123,7 +123,7 @@ Algoritmo CompraSupermercado
 	supermercado_B = "Supermercado El Oferton"
 	producto_B = "Ingrese el valor del producto"
 	
-	// Muestra el encabezado y la instrucci髇 para ingresar precios
+	// Muestra el encabezado y la instrucci贸n para ingresar precios
 	Escribir supermercado_B
 	Escribir producto_B
 	
@@ -133,18 +133,18 @@ Algoritmo CompraSupermercado
 	// Asigna el mensaje para solicitar la cantidad de unidades
 	unidades_B = "Ingrese la cantidad de unidades"
 	
-	// Muestra la instrucci髇 para ingresar unidades
+	// Muestra la instrucci贸n para ingresar unidades
 	Escribir unidades_B
 	
 	// Lee desde consola las cantidades (unidades) (leche, pollo, manzana)
 	Leer unidadesLeche_B, unidadesPollo_B, unidades_Manzana_B
 	
-	unidadesLeche_B = 3
-	unidadesPollo_B = 1
-	unidades_Manzana_B = 4
+	unidadesLeche_B = unidadesLeche_B
+	unidadesPollo_B = unidadesPollo_B
+	unidades_Manzana_B = unidades_Manzana_B
 	
 	// =========================================================
-	// SUPERMERCADO B: C罫CULOS
+	// SUPERMERCADO B: C脕LCULOS
 	// =========================================================
 	
 	// Calcula el total por producto (precio por unidad * cantidad de unidades)
@@ -160,7 +160,7 @@ Algoritmo CompraSupermercado
 	// SUPERMERCADO B: MENSAJES Y SALIDA EN PANTALLA
 	// =========================================================
 	
-	// Define los mensajes del pie de p醙ina (solo asignaci髇 de texto)
+	// Define los mensajes del pie de p谩gina (solo asignaci贸n de texto)
 	pieDePagina_B = "El valor estimado de su compra seria: $"
 	agradecimiento_B = "Gracias por su visita"
 	
@@ -174,18 +174,18 @@ Algoritmo CompraSupermercado
 	Escribir agradecimiento_B
 	
 	// =========================================================
-	// COMPARACI覰: DETERMINAR EL SUPERMERCADO M罶 ECON覯ICO
+	// COMPARACI脫N: DETERMINAR EL SUPERMERCADO M脕S ECON脫MICO
 	// =========================================================
 	
-	// Si el total del Supermercado A es mayor que el del B, entonces B es m醩 econ髆ico
+	// Si el total del Supermercado A es mayor que el del B, entonces B es m谩s econ贸mico
 	Si precioTotalCompra_A > precioTotalCompra_B Entonces
 		supermercadoEconomico = "Supermercado El Oferton"
 	SiNo
-		// En caso contrario, A es igual o m醩 econ髆ico que B
+		// En caso contrario, A es igual o m谩s econ贸mico que B
 		supermercadoEconomico = "Supermercado La Rebaja"
 	FinSi
 	
-	// Muestra en pantalla el supermercado m醩 econ髆ico
+	// Muestra en pantalla el supermercado m谩s econ贸mico
 	Escribir "El Supermercado recomendado es: ", supermercadoEconomico
 
 
